@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PokeInvader - Page d'accès</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/w3.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">-->
+  <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <!--script-->
+
+  <script type='text/javascript' src="./js/interface.js"></script>
+
+  <script type='text/javascript' src="./js/usefull.js"></script>
+
+
+  <script type='text/javascript' src="./js/ObjetGraphique.js"></script>
+  <script type='text/javascript' src="./js/vaisseau.js"></script>
+  <script type='text/javascript' src="./js/monstre.js"></script>
+  <script type='text/javascript' src="./js/missile.js"></script>
+
+  <script type='text/javascript' src="./js/main.js"></script>
+  <script type='text/javascript' src="./js/launcher.js"></script>
+
+</head>
+<body>
+
+  <div>
+
+    <nav class="w3-sidenav w3-collapse w3-white w3-animate-left w3-card-2" style="z-index:3;width:200px;" id="mySidenav">
+      <a href="javascript:void(0)" onclick="w3_close()"
+      class="w3-text-teal w3-hide-large w3-closenav w3-large">Fermer<i class="fa fa-remove"></i></a>
+      <a href="./index.html">Résumé</a>
+      <a href="./cv.html">CV</a>
+      <div class="w3-accordion">
+        <a onclick="myAccordion('jeux')" href="javascript:void(0)">Jeux <i class="fa fa-caret-down"></i></a>
+        <div id="jeux" class="w3-accordion-content w3-animate-left w3-padding">
+          <a href="./pokeinvader.html"  class="w3-light-grey w3-medium">PokeInvader</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+    <div class="w3-main" style="margin-left:200px;">
+
+      <div id="myTop" class="w3-top w3-container w3-padding-16 w3-theme w3-large">
+        <i class="fa fa-bars w3-opennav w3-hide-large w3-xlarge w3-margin-left w3-margin-right" onclick="w3_open()"></i>
+        <span id="myIntro" class="w3-hide">Mercier Matthieu - PokeInvader</span>
+      </div>
+
+      <header class="w3-container w3-theme w3-padding-16" style="padding-left:32px">
+        <h1 class="w3-xxxlarge w3-padding-16">Mercier Matthieu - PokeInvader</h1>
+      </header>
+
+      <div class="w3-container w3-padding-32" style="padding-left:32px">
+        <div class="w3-row">
+          <div class="w3-col m12 l9">
+            <div class="w3-container">
+              <img src="./jeux/PokeInvader/pictures/menu.jpg" class="w3-round" alt="PokeInvader apperçu" style="width:100%">
+            </div>
+            <a class="w3-btn" href="./jeux/PokeInvader/index.html">Accéder au jeux</a>
+          </div>
+          <div class="w3-col m12 l3">
+            <div class="w3-card-4">
+
+              <header class="w3-container w3">
+                <h1>Contrôles</h1>
+              </header>
+
+              <div class="w3-container">
+                <table class="w3-table w3-centered">
+                  <tr>
+                    <th>
+                      <i class="fa fa-arrow-left fa-lg"></i>
+                      <i class="fa fa-arrow-right fa-lg"></i>
+                    </th>
+                    <th>
+                      Diriger Pikachu
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <i class="fa fa-minus fa-lg"></i>
+                    </th>
+                    <th>
+                      Attaquer
+                    </th>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+            <div class="w3-card-4">
+
+              <header class="w3-container w3">
+                <h1>Projet</h1>
+              </header>
+
+              <div class="w3-container">
+                <p>Projet réalisé durant le cours de Michel Buffa à l'université d'Evry avec Thomas Berriau.</p>
+                <p>
+                  Le projet est téléchargeable sur github sur
+                  <a href="https://github.com/Makeuu/PokeInvader">
+                    ce lien
+                  </a>
+                  <i class="fa fa-github fa-lg"></i>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./scripts/scripts.js"></script>
+</body>
+</html>
